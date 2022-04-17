@@ -1,2 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: #020024;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+#brand {
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 4rem;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px 15px;
+}
 
